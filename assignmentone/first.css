@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+     height: 70vh;
+     background-color:#ffcd9e;
+     display: flex;
+     padding:25px 25px;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+
+.leftside{
+    width: 60vw;
+    padding: 10px 10px;
+    margin: 50px 70px;
+
+}
+
+h1{
+    font-size: 42px;
+    margin: 20px;
+}
+
+p{
+    margin: 20px;
+    font-size: 22px;
+    color: #282828;
+}
+
+h3{
+    margin: 20px;
+}
+
+.inputbar{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.inputbox{
+   border: 2px solid black;
+   border-radius: 5px;
+   height: 4vh;
+   width: 20vw;
+   font-size: 22px;
+   padding: 15px ;
+}
+
+.regbtn{
+    background-color:#282828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 10vh;
+    width: 12vw;
+    padding: 15px;
+    margin: 10px;
+    font-size: large;
+}
+
+.rightside{
+    width: 40vw;
+}
+
+.rightimg1{
+    height:400px ;
+    width:400px ;
+}
+
+.footer{
+    background-color:#282828;
+    color:white;
+    display: flex;
+    height: 30vh;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 3vh;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px 50px;
+}
+
+.slogo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration:none;
+}
